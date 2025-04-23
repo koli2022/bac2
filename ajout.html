@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="control.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="ajout.php" method="post" onsubmit="return(verif())">
+      <fieldset>
+        <legend>New member</legend>
+        <table>
+          <tr>
+            <td>Email</td>
+            <td><input type="email" id="e" name="e" /></td>
+            <td>mot de passe:</td>
+            <td><input type="password" name="mdp" id="mdp" /></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><button>Annuler</button><button>Enregistrer</button></td>
+          </tr>
+        </table>
+      </fieldset>
+    </form>
+  </body>
+</html>
