@@ -1,0 +1,97 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+header {
+  background-color: rgba(0, 0, 0, 0.836);
+  position: fixed;
+  top: 0%;
+  height: 20%;
+  width: 100%;
+}
+nav {
+  background-color: rgb(27, 14, 14);
+  position: fixed;
+  top: 12%;
+  width: 100%;
+  height: 8%;
+}
+main {
+  background-color: rgb(27, 25, 25);
+  position: fixed;
+  left: 0%;
+  width: 100%;
+  top: 20%;
+  bottom: 10%;
+  height: 70%;
+}
+footer {
+  background-color: rgba(0, 0, 0, 0.815);
+  position: fixed;
+  bottom: 0%;
+  width: 100%;
+  height: 10%;
+}
+h3 {
+  position: fixed;
+  top: 4%;
+  left: 40%;
+  text-align: center;
+  color: rgba(176, 245, 218, 0.829);
+}
+div {
+  width: 20%;
+  height: 8%;
+  background-color: rgb(145, 89, 15);
+  color: rgba(176, 245, 218, 0.829);
+}
+div.a {
+  left: 0%;
+  position: fixed;
+}
+div.b {
+  left: 20%;
+  position: fixed;
+}
+div.c {
+  left: 40%;
+  position: fixed;
+}
+div.d {
+  left: 60%;
+  position: fixed;
+}
+div.e {
+  left: 80%;
+  position: fixed;
+}
+div button {
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+  border: 0px;
+}
+div button:hover {
+  cursor: pointer;
+  border: 2px rgb(194, 189, 189);
+  background-color: rgb(196, 192, 188);
+}
+iframe {
+  background-color: rgb(27, 25, 25);
+  position: fixed;
+  left: 0%;
+  width: 100%;
+  top: 20%;
+  bottom: 10%;
+  height: 70%;
+  color: rgb(180, 147, 248);
+}
+footer a {
+  color: rgb(166, 175, 247);
+}
+td {
+  color: rgb(170, 238, 212);
+}
+legend {
+  color: rgb(170, 238, 212);
+}
